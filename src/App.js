@@ -13,7 +13,7 @@ const tableData = [
 	{
 		name: 'Matthew Wierschem',
 		department: "Management",
-		salary: 50000
+		salary: 60000
 	},
 	{
 		name: 'Kenn Gaub',

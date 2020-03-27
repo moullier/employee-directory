@@ -16,8 +16,29 @@ const sortTypes = {
 };
 
 class Table extends React.Component {
+	// declaring the default state
+	state = {
+		currentSort: 'default'
+	};
+
+	// method called every time the sort button is clicked
+	// it will change the currentSort value to the next one
+	onSortChange = () => {
+		const { currentSort } = this.state;
+		let nextSort;
+
+		if (currentSort === 'down') nextSort = 'up';
+		else if (currentSort === 'up') nextSort = 'default';
+		else if (currentSort === 'default') nextSort = 'down';
+
+		this.setState({
+			currentSort: nextSort
+		});
+	};
+
     render() {
 		const { data } = this.props;
+		const { currentSort } = this.state;
   
         return (
 			data.length > 0 && (
@@ -26,11 +47,15 @@ class Table extends React.Component {
 						<tr>
 							<th>Name</th>
 							<th>Department</th>
-							<th>Salary</th>
+							<th>Salary
+								<button className="sortButton" onClick={this.onSortChange}>
+									<i className={`fas fa-${sortTypes[currentSort].class}`} />
+								</button>
+							</th>
 						</tr>
 					</thead>
 					<tbody>
-						{data.map(p => (
+					{[...data].sort(sortTypes[currentSort].fn).map(p => (
 							<tr>
 								<td>{p.name}</td>
 								<td>{p.department}</td>
