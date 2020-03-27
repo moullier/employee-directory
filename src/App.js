@@ -6,44 +6,44 @@ import SearchBar from "./components/SearchBar";
 
 const tableData = [
 	{
-		name: 'Amancio Ortega',
-		net_worth: 62.7
+		name: 'Maria Francis-Moullier',
+		department: "Web Development",
+		salary: 60000
 	},
 	{
-		name: 'Bernard Arnault',
-		net_worth: 76
+		name: 'Matthew Wierschem',
+		department: "Management",
+		salary: 50000
 	},
 	{
-		name: 'Bill Gates',
-		net_worth: 96.5
+		name: 'Kenn Gaub',
+		department: "Human Resources",
+		salary: 50000
 	},
 	{
-		name: 'Carlos Sim Helu',
-		net_worth: 64
+		name: 'Chris Cronenberg',
+		department: "Data Analytics",
+		salary: 80000
 	},
 	{
-		name: 'Jeff Bezos',
-		net_worth: 131
+		name: 'Steve Jensen',
+		department: "Data Analytics",
+		salary: 75000
 	},
 	{
-		name: 'Larry Ellison',
-		net_worth: 58
+		name: 'Neil Kempton',
+		department: "Manufacturing",
+		salary: 65000
 	},
 	{
-		name: 'Larry Page',
-		net_worth: 50.8
+		name: 'Michael Reyes',
+		department: "Training",
+		salary: 85000
 	},
 	{
-		name: 'Mark Zuckerberg',
-		net_worth: 62.3
-	},
-	{
-		name: 'Michael Bloomberg',
-		net_worth: 55.5
-	},
-	{
-		name: 'Warren Buffet',
-		net_worth: 82.5
+		name: 'Brian Houtman',
+		department: "Design",
+		salary: 55000
 	}
 ];
 

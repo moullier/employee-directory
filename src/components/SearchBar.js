@@ -2,7 +2,14 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <h2>SearchBar goes here</h2>
+    <div className="wrap">
+      <div className="search">
+        <input type="text" className="searchTerm" placeholder="Filter Employees" />
+        <button type="submit" className="searchButton">
+          <i className="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
   );
 }
 
