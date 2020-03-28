@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import Table from "./components/Table";
-import SearchBar from "./components/SearchBar";
+// import SearchBar from "./components/SearchBar";
 
 const tableData = [
 	{
@@ -51,9 +51,9 @@ const tableData = [
 function App() {
   return (
     <div>
-      <Header />
-      <SearchBar />
-		  <Table data={tableData} />
+    	<Header />
+    	{/* <SearchBar /> */}
+		<Table data={tableData} />
     </div>
   );
 }
