@@ -3,6 +3,7 @@
   background: #00B4CC;
   position: relative;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .footer span {
@@ -16,6 +17,16 @@
 
 .dataTable {
   margin: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+th, td {
+  border-left-width: 20px;
+  border-collapse: separate;
+  padding-left: 10px;
 }
 
 /* from https://codepen.io/huange/pen/rbqsD, edited */
@@ -64,11 +75,15 @@ body{
 .wrap{
   width: 80%;
   position: static;
-  margin: 10px;
+  margin: 0 auto;
   margin-bottom: 10px;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
+}
+
+.tableDiv{
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
