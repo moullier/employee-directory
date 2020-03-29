@@ -15,3 +15,7 @@ https://www.florin-pop.com/blog/2019/07/sort-table-data-with-react/ - This tutor
 https://www.youtube.com/watch?v=OlVkYnVXPl0 - This video and an accompanying codepen (http://codepen.io/drikting/full/vGPdNj/) showed me how to filter data in React.
 
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f - This article helped me get the app built and deployed to github pages.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
